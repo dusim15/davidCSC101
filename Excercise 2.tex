@@ -1,0 +1,30 @@
+\documentclass{article}
+\usepackage{graphicx}
+\usepackage{array}
+\begin{document}
+	
+\begin{table}[h!]
+	\centering
+	\begin{tabular}{ | c | m{5cm} | m{5cm} | }
+		\hline
+		my.github & Advantages & Disadvantages \\ 
+		\hline
+		\begin{minipage}{.4\textwidth}
+			\includegraphics[width=\linewidth, height=40mm]{Github}
+		\end{minipage}
+		&
+		% begin{minpage[t]{5cm}
+		  \begin{itemize}
+		  	\item Easy to contribute to your open source projects
+		  	\item Documentation
+		  	\item Showcase your work \ldots
+		  	\item Track changes in your code across versions
+		  	\item Interogation options
+		\end{itemize}
+		%\end{minipage}
+		\\ \hline
+		\end{tabular}
+		\caption{Github Analysis}\label{tbl:mygithub}
+	\end{table}
+
+\end{document}
